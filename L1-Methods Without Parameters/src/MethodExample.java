@@ -5,9 +5,10 @@ public class MethodExample {
     public static void main(String[] args) {
         area();
         perimeter();
+
     }
 
-    public static void area(){
+    public static void area() {
         double width = Double.parseDouble(JOptionPane.showInputDialog("What is the width?"));
         double length = Double.parseDouble(JOptionPane.showInputDialog("What is the length"));
 
